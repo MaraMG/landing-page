@@ -1,0 +1,156 @@
+body {
+    font-family: 'Source Serif 4', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(153, 0, 31);
+    font-size: 18px;
+    padding-top: 11px;
+    font-weight: bold;    
+    color: rgb(233, 223, 223);
+    align-items: center;
+}
+
+#links {
+    display: flex;
+    list-style-type: none;
+    gap: 13px;
+}
+
+a {
+    text-decoration: none;
+    color:rgb(233, 223, 223);
+}
+
+.main-section-one {
+    display: flex;
+    background-color: crimson;
+    color: rgb(233, 223, 223);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 70px;
+    padding-right: 70px;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+img {
+    width: 330px;
+    height: 250px;
+}
+
+.main-section-one button {
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    flex-direction: column;
+}
+
+text {
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.section-two img {
+    width: 115px;
+    height: 85px;
+}
+
+.images-list {
+    display: flex;
+    gap: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.first-item, .second-item, .third-item, .fourth-item {
+    max-width: 200px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(199, 197, 197);
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    padding-left: 315px;
+    padding-right: 315px;
+    padding-bottom: 25px;
+}
+
+.section-three p {
+    margin-bottom: 5px;
+}
+
+.firm {
+    font-size: 21px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}
+
+.modal {
+    background: royalblue;
+    width: 780px;
+    border-radius: 7px;
+    margin: 75px;
+    color: white;
+    padding: 25px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .section-four {
+      display: flex;
+      justify-content: center;
+  }
+
+  .modal-title {
+      font-weight: bold;
+  }
+
+  .sign-up {
+    padding: 3px 14px;
+    border-radius: 8px;
+    background: royalblue;
+    border: 1px solid white;
+    color: white;
+    align-items: center;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(109, 109, 109);
+    color:darkgray;
+    
+}
